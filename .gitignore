@@ -7,6 +7,20 @@ newtest
 *.a
 *.swp
 
+# Kernel module build artifacts
+*.ko
+*.mod
+*.mod.c
+*.cmd
+*.tmp_versions
+
+# Module build metadata
+Module.symvers
+modules.order
+
+# Device tree overlays (compiled)
+*.dtbo
+
 build/
 release/
 debug/
